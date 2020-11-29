@@ -2,9 +2,9 @@
   display: grid;
   grid-template-columns: 25% 1fr;
   grid-template-areas:
-    "header header"
-    "aside main"
-    ". footer";
+							"header header"
+							"aside main"
+							". footer";
   height: 600px;
   grid-gap: 1em;
 }
