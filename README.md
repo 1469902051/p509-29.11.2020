@@ -40,6 +40,21 @@
 
 ## Assigments:
 
+- **Create below shown responsive layout using Flexbox (define breakpoints by yourself for yourself):**
+<img width="718" alt="Screen Shot 2020-11-29 at 19 41 46" src="https://user-images.githubusercontent.com/74110914/100547370-ce66a180-327f-11eb-9dc2-eeb08aca881f.png">
+<img width="667" alt="Screen Shot 2020-11-29 at 19 41 42" src="https://user-images.githubusercontent.com/74110914/100547364-cd357480-327f-11eb-8fb3-369f342a11f1.png">
+<img width="630" alt="Screen Shot 2020-11-29 at 19 41 37" src="https://user-images.githubusercontent.com/74110914/100547360-cb6bb100-327f-11eb-86f6-832fa32aaeb6.png">
+
+  
+- **Create below shown responsive layout using CSS Grid (define breakpoints by yourself for yourself):**
+![7vpUPMSbPfhxiUNYj5XnE6-970-80 jpg](https://user-images.githubusercontent.com/74110914/100547399-f229e780-327f-11eb-9a96-3c901dc7a8ff.jpg)
+
+- **Creat this layout using CSS Grid:**
+<img width="591" alt="Screen Shot 2020-11-29 at 19 40 45" src="https://user-images.githubusercontent.com/74110914/100547359-c9095700-327f-11eb-8286-bda98175afeb.png">
+
+
+- **Develop mobile and desktop version of [this page](https://www.figma.com/file/eSPjg8zEQyfjMIiBBhpRVL/?node-id=964%3A5456)**
+  - You can use any technique (flex, grid, float) you want and you can integrate Bootstrap and use it's 12x Grid system.
 
 ## Some useful resources:
 
