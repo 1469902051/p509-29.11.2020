@@ -1,0 +1,140 @@
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.header .header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.header .nav ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.header .nav ul li:not(:last-child) {
+  margin-right: 40px;
+}
+
+.header .nav ul a {
+  color: #4f5665;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.header .auth-buttons .btn-link {
+  margin-right: 30px;
+}
+
+/* Buttons */
+
+.btn {
+  border: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  background-color: transparent;
+}
+
+.btn-link {
+  color: #0b132a;
+}
+
+.btn-secondary {
+  padding: 13px 45px;
+  border: 1px solid #f53855;
+  border-radius: 50px;
+  color: #f53855;
+}
+
+.btn-primary {
+  position: relative;
+  padding: 17.5px 77.5px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 25px;
+  background-color: #f53855;
+}
+
+.btn-primary:after {
+  content: "";
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  display: block;
+  width: 211.83px;
+  height: 60px;
+  border-radius: 10px;
+
+  background: rgba(245, 56, 56, 0.35);
+  filter: blur(54px);
+}
+
+/* Jumbatron */
+
+.jumbatron {
+  margin-bottom: 103px;
+  margin-top: 103px;
+}
+
+.jumbatron h1 {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 70px;
+}
+
+.jumbatron p {
+  margin-bottom: 50px;
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+/* Statistics */
+
+.statistics {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 67px 91px;
+  margin-bottom: 300px;
+  border-radius: 10px;
+}
+
+.statistics:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 52px;
+  left: 35px;
+  border-radius: 10px;
+  background-color: #0d1025;
+  opacity: 0.06;
+  filter: blur(114px);
+}
+
+.statistics-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.statistics-item:nth-child(2) {
+  border-left: 2px solid #eeeff2;
+  border-right: 2px solid #eeeff2;
+}
+
+.statistics-item img {
+  margin-right: 35px;
+}
+
+.statistics-item strong {
+  display: block;
+}
